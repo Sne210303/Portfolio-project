@@ -69,3 +69,11 @@ h3 {
   text-decoration: none;
   text-transform: capitalize;
 }
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero {
+  padding: 80px 20px;
+}
