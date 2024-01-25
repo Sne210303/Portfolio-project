@@ -80,7 +80,7 @@ p {
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 56px;
+    line-height: 2px;
   }
 
   h2 {
@@ -108,6 +108,12 @@ p {
   }
   .about-section-content {
     margin: 30px;
+  }
+
+  p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
   }
 
   .project-desciption {
