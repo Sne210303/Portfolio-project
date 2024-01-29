@@ -76,6 +76,35 @@ p {
 .project-desciption {
   padding: 120px 60px;
 }
+.logo {
+  max-width: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+nav al {
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover {
+  color: var(--branding-color);
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+nav li {
+  margin: left;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 10px;
+}
 
 @media (max-width: 900px) {
   h1 {
